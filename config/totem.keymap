@@ -3,7 +3,7 @@
 //                                                        ▄▀▀▀▄  ▄  ▄▀▀▀▄  ▄  ▄▀▀▀▄  █  ▄▀▀▀▄
 //                                                        █   █  █  █   █  █  █   █  █  █   █
 //                                                         ▀▀▀   █   ▀▀▀   █   ▀▀▀   ▀   ▀▀▀
-//                                                               █      ▄▄▄█▄▄▄    █   █  
+//                                                               █      ▄▄▄█▄▄▄    █   █
 //                                                               ▀      █  █  █     █▄█
 //                                                             ▀▀▀▀▀    █  █  █      ▀
 //                                                                      ▀  ▀  ▀
@@ -16,10 +16,11 @@
 
 #define Base        0
 #define Nav         1
-#define Sym         2
-#define Fun         3
-#define Game        4
-#define Gameplus    5
+#define SpaceNav    2
+#define Num         3
+#define Sym         4
+#define Func        5
+#define MouseNav    6
 
 &mt {
     quick-tap-ms = <100>;
@@ -76,7 +77,7 @@
        &kp B       &kp L             &kp D           &kp W        &kp Z        &kp SINGLE_QUOTE  &kp F        &kp O            &kp U              &kp J
        &hm LGUI N  &hm LEFT_SHIFT R  &hm LEFT_ALT T  &hm LCTRL S  &kp G        &kp Y             &hm RCTRL H  &hm RIGHT_ALT A  &hm RIGHT_SHIFT E  &hm RGUI I
 &none  &kp Q       &kp X             &kp M           &kp C        &kp V        &kp K             &kp P        &dot_colon       &comma_semi        &kp SLASH   &none
-                                     &lt 2 ESCAPE    &lt 1 SPACE  &lt 5 TAB    &lt 4 ENTER       &lt 3 BSPC   &lt 5 DELETE
+                                     &lt SpaceNav ESCAPE    &lt Nav SPACE  &lt MouseNav TAB    &lt Sym ENTER       &lt Num BSPC   &lt Func DELETE
             >;
         };
 
