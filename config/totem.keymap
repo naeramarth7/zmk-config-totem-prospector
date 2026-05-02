@@ -66,7 +66,17 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        combo_bootloader {
+            timeout-ms = <50>;
+            require-prior-idle-ms = <500>;
+            key-positions = <0 9>;
+            layers = <Func>;
+            bindings = <&bootloader>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
@@ -126,7 +136,7 @@
             bindings = <
                 &kp F10  &kp F1  &kp F2  &kp F3  &none     &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp K_MUTE  &trans
                 &kp F11  &kp F4  &kp F5  &kp F6  &none     &trans  &trans             &trans           &trans      &trans
-&studio_unlock  &kp F12  &kp F7  &kp F8  &kp F9  &none     &trans  &trans             &trans           &trans      &trans  &bootloader
+&studio_unlock  &kp F12  &kp F7  &kp F8  &kp F9  &none     &trans  &trans             &trans           &trans      &trans  &trans
                                  &trans  &trans  &trans    &trans  &trans             &trans
             >;
         };
