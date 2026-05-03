@@ -94,10 +94,10 @@
         Nav {
             display-name = "Nav";
             bindings = <
-       &none           &none      &none      &none      &none        &none     &kp PAGE_DOWN  &kp UP    &kp PG_UP  &none
-       &kp LEFT_SHIFT  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Z)    &kp HOME  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END
-&none  &none           &none      &none      &none      &none        &none     &none          &none     &none      &none    &none
-                                  &trans     &trans     &trans       &trans    &trans         &trans
+       &trans  &trans  &trans  &trans  &trans    &none     &kp PAGE_DOWN  &kp UP    &kp PG_UP  &none
+       &trans  &trans  &trans  &trans  &trans    &kp HOME  &kp LEFT       &kp DOWN  &kp RIGHT  &kp END
+&none  &trans  &trans  &trans  &trans  &trans    &none     &none          &none     &none      &none    &none
+                       &trans  &trans  &trans    &trans    &trans         &trans
             >;
         };
 
@@ -144,10 +144,10 @@
         MouseNav {
             display-name = "Mouse";
             bindings = <
-        &trans  &trans  &trans  &trans  &trans    &trans          &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans
-        &trans  &trans  &trans  &trans  &trans    &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT
-&trans  &trans  &trans  &trans  &trans  &trans    &trans          &trans          &trans          &trans           &trans           &trans
-                        &trans  &trans  &trans    &mkp RCLK       &mkp LCLK       &mkp MCLK
+        &none           &none      &none      &none      &none        &trans          &msc SCRL_DOWN  &mmv MOVE_UP    &msc SCRL_UP     &trans
+        &kp LEFT_SHIFT  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(Z)    &msc SCRL_LEFT  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &msc SCRL_RIGHT
+&trans  &none           &none      &none      &none      &none        &trans          &trans          &trans          &trans           &trans           &trans
+                                   &trans     &trans     &trans       &mkp RCLK       &mkp LCLK       &mkp MCLK
             >;
         };
     };
