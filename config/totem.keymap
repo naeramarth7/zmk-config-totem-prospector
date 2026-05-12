@@ -84,10 +84,10 @@
         Base {
             display-name = "Base";
             bindings = <
-       &kp B       &kp L             &kp D           &kp W        &kp Z        &kp SINGLE_QUOTE  &kp F        &kp O            &kp U              &kp J
-       &hm LGUI N  &hm LEFT_SHIFT R  &hm LEFT_ALT T  &hm LCTRL S  &kp G        &kp Y             &hm RCTRL H  &hm LEFT_ALT A  &hm RIGHT_SHIFT E  &hm RGUI I
-&none  &kp Q       &kp X             &kp M           &kp C        &kp V        &kp K             &kp P        &dot_colon       &comma_semi        &kp SLASH   &none
-                                     &lt SpaceNav ESCAPE    &lt Nav SPACE  &lt MouseNav TAB    &lt Sym ENTER       &lt Num BSPC   &lt Func DELETE
+       &kp       B  &kp      L  &kp      D           &kp        W   &kp Z        &kp SINGLE_QUOTE  &kp        F   &kp      O    &kp      U       &kp       J
+       &hm LCTRL N  &hm LGUI R  &hm LALT T           &hm LSHIFT S   &kp G        &kp Y             &hm RSHIFT H   &hm LALT A    &hm RGUI E       &hm RCTRL I
+&none  &kp       Q  &kp      X  &kp      M           &kp        C   &kp V        &kp K             &kp        P   &dot_colon    &comma_semi      &kp SLASH   &none
+                                &lt SpaceNav ESCAPE  &lt Nav SPACE  &lt MouseNav TAB               &lt Sym ENTER  &lt Num BSPC  &lt Func DELETE
             >;
         };
 
