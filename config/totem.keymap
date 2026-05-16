@@ -121,7 +121,7 @@
         Num {
             display-name = "Num";
             bindings = <
-       &kp LS(PIPE)  &kp N1  &kp N2     &kp N3  &kp LS(STAR)    &trans  &trans  &trans  &trans  &trans
+       &kp PIPE      &kp N1  &kp N2     &kp N3  &kp STAR        &trans  &trans  &trans  &trans  &trans
        &kp FSLH      &kp N4  &kp N5     &kp N6  &kp EQUAL       &trans  &trans  &trans  &trans  &trans
 &none  &kp BSLH      &kp N7  &kp N8     &kp N9  &kp MINUS       &trans  &trans  &trans  &trans  &trans  &trans
                              &kp COMMA  &kp N0  &kp DOT         &trans  &trans  &trans
@@ -131,10 +131,10 @@
         Sym {
             display-name = "Sym";
             bindings = <
-       &kp LS(PRCNT)  &kp LS(AT)     &kp LS(TILDE)  &kp LS(LBRC)   &kp LS(RBRC)    &trans  &trans  &trans  &trans  &trans
-       &kp LS(POUND)  &kp LS(CARET)  &kp LS(DLLR)   &kp LS(LPAR)   &kp LS(RPAR)    &trans  &trans  &trans  &trans  &trans
-&none  &kp LS(QMARK)  &kp LS(EXCL)   &kp GRAVE      &kp LBKT       &kp RBKT        &trans  &trans  &trans  &trans  &trans  &trans
-                                     &kp LS(LT)     &kp LS(UNDER)  &kp LS(GT)      &trans  &trans  &trans
+       &kp PRCNT      &kp AT         &kp TILDE      &kp LBRC       &kp RBRC        &trans  &trans  &trans  &trans  &trans
+       &kp POUND      &kp CARET      &kp DLLR       &kp LPAR       &kp RPAR        &trans  &trans  &trans  &trans  &trans
+&none  &kp QMARK      &kp EXCL       &kp GRAVE      &kp LBKT       &kp RBKT        &trans  &trans  &trans  &trans  &trans  &trans
+                                     &kp LT         &kp UNDER      &kp GT          &trans  &trans  &trans
             >;
         };
 
